@@ -16,7 +16,7 @@ public class javai implements Runnable
    public void run()
    {
       for(int i =0; i<10; i++)
-      {     Thread r = new Thread();
+      {     //Thread r = new Thread();
             Thread.currentThread().setName("radheshyam");
             //Thread.currentThread().setPriority(10);
             System.out.println(" i failed \t" + Thread.currentThread().getName());

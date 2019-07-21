@@ -8,7 +8,7 @@ class Synac implements Runnable
         Synac t = new Synac(t);
         Runnable s1 = new Synac1(t);
         Runnable s2 = new Synac2(t);
-        Runnable s3 = new Synac3(t);
+        Runnable s3 = new Synac3(t);//Synac3
            new Thread(s1);
             new Thread(s1);
              new Thread(s1);

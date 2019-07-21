@@ -14,7 +14,8 @@ class Serlization implements Serializable
          {  Serlization  red= new Serlization();
              Ser s = new Ser();
             s.x=7;
-            s.y=9;  
+            s.y=9;
+              
              
         try{
              ObjectOutputStream ObjIn = new ObjectOutputStream(new FileOutputStream("abc.text"));

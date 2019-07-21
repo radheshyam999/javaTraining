@@ -1,0 +1,19 @@
+<web-app>
+<servlet>
+    <servlet-name>handleform</servlet-name>
+    <servlet-class>handleform</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>handleform</servlet-name>
+	<url-pattern>/form</url-pattern>
+</servlet-mapping>
+
+<!-- <servlet>
+    <servlet-name>DemoServlet</servlet-name>
+    <servlet-class>DemoServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>DemoServlet</servlet-name>
+	<url-pattern>/demo</url-pattern>
+</servlet-mapping> -->
+</web-app>
